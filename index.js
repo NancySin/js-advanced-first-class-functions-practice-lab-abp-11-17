@@ -1,5 +1,5 @@
 // Code your solution in this file!
-const logDriverNames = (function(drivers){
+const logDriverNames = function(drivers){
   drivers.forEach(function (driver) {
     console.log(driver.name)
   });
@@ -7,12 +7,12 @@ const logDriverNames = (function(drivers){
 
 const logDriversByHometown =Function (drivers, hometown)
 { drivers.forEach(function(drivers)
-  { if(driver.hometown ===hometown)
-  (console.log(driver.name)}
+  { if(driver.hometown ===h ometown){
+  console.log(driver.name)}
 })
 }
 
-const driversByRevenue(drivers)= function (drivers)
+const driversByRevenue(drivers)= function (drivers){
   return drivers.slice().sort(function(driverOne, driverTwo){
     return driverOne.revenue-driverTwo.revenue})
 }
