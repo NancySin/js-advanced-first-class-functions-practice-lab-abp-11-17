@@ -10,10 +10,6 @@ const logDriversByHometown = function (drivers, hometown)
   console.log(driver.name)}
 })
 }
-const driversByRevenue(drivers) = function (drivers) {
-  return drivers.slice().sort(function (driverOne, driverTwo) {
-    return driverOne.revenue - driverTwo.revenue})
-}
 const driversByName = function (drivers){
   return drivers.slice().sort(function(driverOne, driverTwo){
     return driveOne.name.localeCompare(driverTwo.name)
