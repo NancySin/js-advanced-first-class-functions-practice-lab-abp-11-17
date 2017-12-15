@@ -4,8 +4,3 @@ const logDriverNames = function(drivers){
     console.log(driver.name)
   });
 }
-
-const driversByRevenue(drivers)= function (drivers){
-  return drivers.slice().sort(function(driverOne, driverTwo){
-    return driverOne.revenue-driverTwo.revenue})
-}
